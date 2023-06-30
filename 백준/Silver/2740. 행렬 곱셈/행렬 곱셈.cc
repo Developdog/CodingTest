@@ -44,7 +44,7 @@ int main()
 			cout << endl;
 		}
 	}
-	else if (Ay == Bx)
+	else
 	{
 		for (int i = 0; i < Ax; i++)
 		{
