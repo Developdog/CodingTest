@@ -36,7 +36,7 @@ int main()
 	sort(rank.begin(), rank.end(), compare);
 
 	rank[0][4] = 1;
-	if (rank[0][4] == findrank)
+	if (rank[0][0] == findrank)
 	{
 		cout << 1;
 		return 0;
