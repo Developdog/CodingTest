@@ -15,9 +15,7 @@ int main(int argc, char** argv)
         int A, B;
         cin >> A >> B;
         cout << "#" << test_case << " ";
-        if (A + B >= 24) cout << (A + B) % 24;
-        else cout << A + B;
-        cout << endl;
+        cout << (A + B) % 24 << endl;
     }
     return 0;
 }
