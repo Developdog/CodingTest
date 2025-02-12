@@ -1,0 +1,8 @@
+-- 코드를 입력하세요
+SELECT A.NAME 
+FROM (
+        SELECT NAME
+        FROM ANIMAL_INS
+        ORDER BY DATETIME
+    ) A
+WHERE ROWNUM < 2
